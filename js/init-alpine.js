@@ -17,6 +17,7 @@ function data() {
   }
 
   return {
+    isLoading: false,
     dark: getThemeFromLocalStorage(),
     toggleTheme() {
       this.dark = !this.dark
