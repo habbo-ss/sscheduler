@@ -14,15 +14,24 @@
   height: 7px;
   background: #292b2f00;
 }
+
+aside ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: #292b2f00;
+}
+
 .top>.gui::-webkit-scrollbar-thumb:hover {
   background: #222427;
 }
+
 .top>.gui::-webkit-scrollbar-thumb {
   background: #2224279a;
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 50px;
-  background: #202225;
+  background: #545456;
 }
 
 html {
