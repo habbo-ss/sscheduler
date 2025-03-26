@@ -897,9 +897,7 @@ print and (-ms-high-contrast:none) {
 }
 
 .theme-dark .dark\:hover\:bg-gray-800:hover {
-  --bg-opacity: 1;
-  background-color: #1a1c23;
-  background-color: rgba(26, 28, 35, var(--bg-opacity))
+  background-color: hsl(240 calc(1*4%) 60.784% /0.12156862745098039)
 }
 
 .bg-opacity-50 {
