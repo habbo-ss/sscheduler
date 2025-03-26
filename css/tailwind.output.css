@@ -846,6 +846,10 @@ print and (-ms-high-contrast:none) {
   background-color: rgba(88, 101, 242, var(--bg-opacity))
 }
 
+.theme-dark .dark\:bg-gray-600 {
+    background-color: color-mix(in oklab, hsl(240 calc(1*6.122%) 19.216% /1) 100%, #000 0%);
+}
+
 .theme-dark .dark\:bg-gray-700 {
     background-color: color-mix(in oklab, hsl(240 calc(1*5.263%) 7.451% /1) 100%, #000 0%);
 }
