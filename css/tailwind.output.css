@@ -983,9 +983,7 @@ print and (-ms-high-contrast:none) {
 }
 
 .theme-dark .dark\:border-gray-600 {
-  --border-opacity: 1;
-  border-color: #4c4f52;
-  border-color: rgba(76, 79, 82, var(--border-opacity))
+  border-color: color-mix(in oklab, hsl(240 calc(1*4%) 60.784% /0.12156862745098039) 100%, hsl(0deg 0% 0% / 12.16%) 0%);
 }
 
 .theme-dark .dark\:border-gray-700 {
