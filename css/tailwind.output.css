@@ -711,9 +711,7 @@ print and (-ms-high-contrast:none) {
 }
 
 .theme-dark .dark\:divide-gray-700>:not(template)~:not(template) {
-  --divide-opacity: 1;
-  border-color: #24262d;
-  border-color: rgba(36, 38, 45, var(--divide-opacity))
+  border-color: color-mix(in oklab, hsl(240 calc(1*4%) 60.784% /0.12156862745098039) 100%, hsl(0deg 0% 0% / 12.16%) 0%);
 }
 
 .bg-white {
