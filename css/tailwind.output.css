@@ -15,7 +15,7 @@
   background: #292b2f00;
 }
 
-aside ::-webkit-scrollbar {
+aside::-webkit-scrollbar {
   width: 4px;
   height: 4px;
   background: #292b2f00;
