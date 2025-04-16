@@ -1935,8 +1935,7 @@ print and (-ms-high-contrast:none) {
 
 .theme-dark .dark\:text-purple-400 {
   --text-opacity: 1;
-  color: #ac94fa;
-  color: rgba(172, 148, 250, var(--text-opacity))
+  color: rgb(88 101 242);
 }
 
 .theme-dark .dark\:focus-within\:text-purple-400:focus-within {
