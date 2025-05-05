@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automate reminders, announcements, and more with SScheduler made with 💖 by _Chia.">
+    <meta property="og:title" content="SScheduler — Plan and schedule your Discord messages like a pro!">
+    <meta property="og:description" content=" Automate reminders, announcements, and more with SScheduler made with 💖 by _Chia.">
+    <meta property="og:image" content="https://i.imgur.com/INgIa4c.png">
+    <meta property="og:url" content="https://habbo-ss.github.io/sscheduler">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>SScheduler</title>
+    <link rel="icon" href="https://habbo-ss.github.io/sscheduler/images/cropped-ss-logo.png" type="image/x-icon">
+</head>
+<body>
+  <iframe id="scheduler-iframe" width="100%" height="100%"
+    style="height:100vh; width: 100vw;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+  </iframe>
+  <script>
+    window.onload = function () {
+      var iframe = document.getElementById('scheduler-iframe');
+      var currentUrl = window.location.href;
+      var urlParamsIndex = currentUrl.indexOf('?');
+      var urlParams = urlParamsIndex !== -1 ? currentUrl.substring(urlParamsIndex) : '';
+
+      console.log(urlParams);
+
+      iframe.src = "https://script.google.com/macros/s/AKfycbxfb4Jfcf_w7T_NU4zbpm3tTYNgS9wfxmiFjqXv-IBvCq5robi42G4VOW5btTesSrJxLA/exec" + urlParams;
+    };
+  </script>
+</body>
+
+</html>
